@@ -18,7 +18,6 @@ namespace labbish {
 			}
 		};
 		class Calculate {
-		private:
 			//erase [start, end] and replace with new_value
 			template <typename T>
 			void combine_elements(StableVector<T>& vec, size_t start, size_t end, const T& new_value) {
@@ -39,7 +38,31 @@ namespace labbish {
 			std::map<VariableType, double> variables;
 			Calculate(std::map<VariableType, double> variables) :variables(variables) {
 				functions = {
-					{FunctionType("abs"), [](double x)->double {return abs(x); }}
+					{FunctionType("abs"), [](double x)->double {return abs(x); }},
+					{FunctionType("floor"), [](double x)->double {return floor(x); }},
+					{FunctionType("sqr"), [](double x)->double {return x * x; }},
+					{FunctionType("sqrt"), [](double x)->double {return sqrt(x); }},
+					{FunctionType("exp"), [](double x)->double {return exp(x); }},
+					{FunctionType("ln"), [](double x)->double {return log(x); }},
+					{FunctionType("log"), [](double x)->double {return log10(x); }},
+					{FunctionType("sin"), [](double x)->double {return sin(x); }},
+					{FunctionType("cos"), [](double x)->double {return cos(x); }},
+					{FunctionType("tan"), [](double x)->double {return tan(x); }},
+					{FunctionType("csc"), [](double x)->double {return 1 / sin(x); }},
+					{FunctionType("sec"), [](double x)->double {return 1 / cos(x); }},
+					{FunctionType("cot"), [](double x)->double {return 1 / tan(x); }},
+					{FunctionType("arcsin"), [](double x)->double {return asin(x); }},
+					{FunctionType("arccos"), [](double x)->double {return acos(x); }},
+					{FunctionType("arctan"), [](double x)->double {return atan(x); }},
+					{FunctionType("arccsc"), [](double x)->double {return asin(1 / x); }},
+					{FunctionType("arcsec"), [](double x)->double {return acos(1 / x); }},
+					{FunctionType("arccot"), [](double x)->double {return atan(1 / x); }},
+					{FunctionType("sinh"), [](double x)->double {return sinh(x); }},
+					{FunctionType("cosh"), [](double x)->double {return cosh(x); }},
+					{FunctionType("tanh"), [](double x)->double {return tanh(x); }},
+					{FunctionType("arcsinh"), [](double x)->double {return asinh(x); }},
+					{FunctionType("arccosh"), [](double x)->double {return acosh(x); }},
+					{FunctionType("arctanh"), [](double x)->double {return atanh(x); }},
 				};
 			}
 		public:
