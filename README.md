@@ -20,10 +20,11 @@ Now supports:
   * <code>sinh</code>, <code>cosh</code>, <code>tanh</code>
   * <code>arcsinh</code>, <code>arccosh</code>, <code>arctanh</code>
 
+## Requirements
+* Language Standard: C++20
+* Supporting lib: [labbish/StableVector](https://github.com/labbish/StableVector)
 
 ## Usage
-Needs supporting lib: [labbish/StableVector](https://github.com/labbish/StableVector).
-
 Demo:
 
 ```cpp
