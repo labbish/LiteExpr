@@ -2,9 +2,11 @@
 A very simple math expression parsing lib.
 
 ## Speed
-For short expressions, it's 60%~90% faster than [exprtk](https://github.com/ArashPartow/exprtk).
+For short expressions (less than 50 symbols), it's 50%~90% faster than [exprtk](https://github.com/ArashPartow/exprtk); long expressions, however, might be significantly slower.
 
-Long expressions (with more than 50 symbols) isn't yet tested.
+![Comparing Results](https://github.com/user-attachments/assets/12ec230b-c64f-4d03-bee0-94da89c3e7fd)
+
+(sorry for my poor graph making done with GeoGebra.)
 
 ## Function
 Parse & calculate math expressions in string.
