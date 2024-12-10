@@ -8,17 +8,17 @@ Averagely, it's 90% faster than [exprtk](https://github.com/ArashPartow/exprtk).
 Parse & calculate math expressions in string.
 
 Now supports:
-* numbers (support <code>.</code> as decimal point and <code>_</code> as connection)
-* operator: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>^</code>
-* parentheses: <code>(</code> and <code>)</code>
+* numbers (support `.` as decimal point and `_` as connection)
+* operator: `+`, `-`, `*`, `/`, `^`
+* parentheses: `(` and `)`
 * variables (can use letters and underline as names; case sensitive)
 * univariate functions:
-  * <code>abs</code>, <code>floor</code>, <code>sqr</code>, <code>sqrt</code>
-  * <code>exp</code>, <code>ln</code>, <code>log</code>
-  * <code>sin</code>, <code>cos</code>, <code>tan</code>, <code>csc</code>, <code>sec</code>, <code>cot</code>
-  * <code>arcsin</code>, <code>arccos</code>, <code>arctan</code>, <code>arccsc</code>, <code>arcsec</code>, <code>arccot</code>
-  * <code>sinh</code>, <code>cosh</code>, <code>tanh</code>
-  * <code>arcsinh</code>, <code>arccosh</code>, <code>arctanh</code>
+  * `abs`, `floor`, `sqr`, `sqrt`
+  * `exp`, `ln`, `log`
+  * `sin`, `cos`, `tan`, `csc`, `sec`, `cot`
+  * `arcsin`, `arccos`, `arctan`, `arccsc`, `arcsec`, `arccot`
+  * `sinh`, `cosh`, `tanh`
+  * `arcsinh`, `arccosh`, `arctanh`
 
 ## Requirements
 * Language Standard: C++20
