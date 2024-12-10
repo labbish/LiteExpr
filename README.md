@@ -6,7 +6,7 @@ For short expressions (less than 50 symbols), it's 50%~90% faster than [exprtk](
 
 ![Comparing Results](https://github.com/user-attachments/assets/12ec230b-c64f-4d03-bee0-94da89c3e7fd)
 
-(sorry for my poor graph making done with GeoGebra.)
+(Time above are time costed by 160 times repeating. Sorry for my poor graph making done with GeoGebra.)
 
 ## Function
 Parse & calculate math expressions in string.
