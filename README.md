@@ -3,6 +3,7 @@ A very simple math expression parsing lib.
 
 ## Speed
 For short expressions, it's 60%~90% faster than [exprtk](https://github.com/ArashPartow/exprtk).
+
 Long expressions (with more than 50 symbols) isn't yet tested.
 
 ## Function
