@@ -1,6 +1,9 @@
 # LiteExpr
 A very simple math expression parsing lib.
 
+## Speed
+Averagely, it's 90% faster than [exprtk](https://github.com/ArashPartow/exprtk).
+
 ## Function
 Parse & calculate math expressions in string.
 
